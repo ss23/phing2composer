@@ -5,7 +5,7 @@ class Phing2ComposerTest extends PHPUnit_Framework_TestCase {
 	 * @dataProvider getTestFilePairs
 	 */
 	public function testConversion($inFile, $outFile) {
-		$CLI_script = escapeshellcmd(dirname(__DIR__) . '/phing2composer.php');
+		$CLI_script = escapeshellcmd(dirname(__DIR__) . '/phing2composer');
 		$CLI_arg = escapeshellarg($inFile);
 		$output = `$CLI_script $CLI_arg`;
 
