@@ -59,6 +59,7 @@ foreach ($jasons as $repo) {
                         'package' => array(
                                 'name' => $repo['module'],
                                 'version' => $repo['version'],
+                                'type' => 'silverstripe-module', // Must be marked as a module to not have a vendor
                                 'source' => array(
                                         'url' => $repo['url'],
                                         'type' => 'git',
