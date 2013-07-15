@@ -11,7 +11,7 @@ $phingFile = (empty($argv[1]) ? 'dependent-modules' : $argv[1]);
 $composerFile = (empty($argv[2]) ? 'composer.json' : $argv[2]);
 
 if (!file_exists($phingFile)) {
-        echo $phingFile . " does not exist\r\n";
+        echo $phingFile . " does not exist" . PHP_EOL;
         usage();
 }
 
@@ -34,8 +34,8 @@ foreach (file($phingFile, FILE_SKIP_EMPTY_LINES | FILE_IGNORE_NEW_LINES) as $lin
                         throw new Exception('Count not parse line from phing: ' . $data[0] . ' - ' . $data[1]);
                 }
         } catch (Exception $e) {
-                echo "Oh no! An exception. Hmph. Guess you'll have to add that one yourself: " . $line . "\r\n";
-                echo $e . "\r\n";
+                echo "Oh no! An exception. Hmph. Guess you'll have to add that one yourself: " . $line . PHP_EOL;
+                echo $e  . PHP_EOL;
         }
 }
 
@@ -71,7 +71,7 @@ foreach ($jasons as $repo) {
 
 echo JsonFile::encode($output_me_harder, JsonFile::JSON_PRETTY_PRINT | JsonFile::JSON_UNESCAPED_SLASHES);
 
-echo "\r\n";
+echo PHP_EOL;
 
 function parse_as_official($data) {
         $data[0] = explode(':', $data[0]);
@@ -108,5 +108,5 @@ function phingversion2composer($version) {
 
 
 function usage() {
-        die("usage: ./phing2composer [dependent-modules] [composer.json]\r\n");
+        die("usage: ./phing2composer [dependent-modules] [composer.json]" . PHP_EOL);
 }
