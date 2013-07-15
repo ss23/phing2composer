@@ -1,6 +1,8 @@
 #!/usr/bin/env php
 <?php
 
+require(dirname(__FILE__) . '/JsonFile.php');
+
 if ($argc > 3) {
         usage();
 }
@@ -67,12 +69,7 @@ foreach ($jasons as $repo) {
         }
 }
 
-if (defined('JSON_PRETTY_PRINT')) {
-        echo json_encode($output_me_harder, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
-} else {
-        echo "Warning: Not pretty printed (and hacked up the quote escaped). You should upgrade your version of PHP (you can try using http://jsonformatter.curiousconcept.com/ if you like)\r\n\r\n";
-        echo str_replace('\/', '/', json_encode($output_me_harder));
-}
+echo JsonFile::encode($output_me_harder, JsonFile::JSON_PRETTY_PRINT | JsonFile::JSON_UNESCAPED_SLASHES);
 
 echo "\r\n";
 
