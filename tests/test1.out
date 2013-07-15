@@ -24,6 +24,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/blog",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/blog-module.git",
                     "type": "git",
@@ -36,6 +37,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/payment",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/payment.git",
                     "type": "git",
@@ -48,6 +50,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/recaptcha",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/recaptcha.git",
                     "type": "git",
@@ -60,6 +63,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/userforms",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/userforms.git",
                     "type": "git",
@@ -72,6 +76,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/spamprotection",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/spamprotection.git",
                     "type": "git",
@@ -84,6 +89,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/fulltextsearch",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/fulltextsearch.git",
                     "type": "git",
@@ -96,6 +102,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/personalisation",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/personalisation.git",
                     "type": "git",
@@ -108,6 +115,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/googleaddressfield",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/googleaddressfield.git",
                     "type": "git",
@@ -120,6 +128,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/documentconverter",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/super-marvellous-core/documentconverter.git",
                     "type": "git",
@@ -132,6 +141,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/widgets",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/plunket/widgets.git",
                     "type": "git",
@@ -144,6 +154,7 @@
             "package": {
                 "name": "custom-silvestripe-fork/translatable",
                 "version": "dev-master",
+                "type": "silverstripe-module",
                 "source": {
                     "url": "ssh://git@gitorious.silverstripe.com:2222/super-marvellous-core/translatable.git",
                     "type": "git",
