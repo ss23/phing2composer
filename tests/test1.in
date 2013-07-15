@@ -1,0 +1,51 @@
+# File format
+# -----------
+# Each line represents one dependent module.
+#
+# local_module_folder[:git_branch|:svn_revision_number] repository_url [run_dev_build=true] [local]
+#
+# Note that the local_module_folder can contain subfolders delimited via '/' characters
+# A specific git branch or SVN revision can be added in by specifying after the local
+# foldername, separated by a colon. By default, the 'master' branch of a git repository is used. 
+#
+# Using the "piston" flag will strip versioning information, but keep metadata in the working copy
+# to update from version control later on, and merge in potential local changes.
+# See http://piston.rubyforge.org for details.
+#
+# It is recommended to have sqlite3 and cms first with [run_dev_build] set to "false".
+# Having this set to 'false' prevents the execution of the dev/build process, meaning it can be
+# deferred until all dependencies are in place, specifically the framework module. List
+# all additional modules after that. 
+#
+# Examples
+#
+# frontend-editing:development git://github.com/nyeholt/silverstripe-frontend-editing.git
+# themes/mytheme git://local.server/themes/mytheme.git false
+
+# cms:3.0 ssh://git@gitorious.silverstripe.com:2222/plunket/cms.git
+# framework:3.0 ssh://git@gitorious.silverstripe.com:2222/plunket/framework.git
+cms:3.0 https://github.com/silverstripe/silverstripe-cms.git
+framework:3.0 https://github.com/silverstripe/sapphire.git
+blog:master ssh://git@gitorious.silverstripe.com:2222/plunket/blog-module.git
+
+payment:master ssh://git@gitorious.silverstripe.com:2222/plunket/payment.git
+recaptcha:master ssh://git@gitorious.silverstripe.com:2222/plunket/recaptcha.git
+userforms:master ssh://git@gitorious.silverstripe.com:2222/plunket/userforms.git
+spamprotection:master ssh://git@gitorious.silverstripe.com:2222/plunket/spamprotection.git
+
+fulltextsearch:master ssh://git@gitorious.silverstripe.com:2222/plunket/fulltextsearch.git
+# tagfield:master ssh://git@gitorious.silverstripe.com:2222/plunket/tagfield.git
+personalisation:master ssh://git@gitorious.silverstripe.com:2222/plunket/personalisation.git
+googleaddressfield:master ssh://git@gitorious.silverstripe.com:2222/plunket/googleaddressfield.git 
+documentconverter:master ssh://git@gitorious.silverstripe.com:2222/super-marvellous-core/documentconverter.git
+widgets:master ssh://git@gitorious.silverstripe.com:2222/plunket/widgets.git
+# The following are the some other modules you might like to import
+
+sqlite3:master git://github.com/silverstripe-labs/silverstripe-sqlite3.git
+# userforms:master:0.3.0 git://github.com/silverstripe/silverstripe-userforms.git
+# securefiles http://svn.polemic.net.nz/silverstripe/modules/SecureFiles/tags/0.30/
+
+translatable:master ssh://git@gitorious.silverstripe.com:2222/super-marvellous-core/translatable.git
+comments:master https://github.com/silverstripe/silverstripe-comments.git
+
+
