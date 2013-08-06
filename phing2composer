@@ -60,7 +60,10 @@ foreach ($jasons as $repo) {
                                 'name' => $repo['module'],
                                 'version' => $repo['version'],
                                 'type' => 'silverstripe-module', // Must be marked as a module to not have a vendor
-                                'source' => array(
+                                'require' => array(
+					'composer/installers' => '*',
+				),
+				'source' => array(
                                         'url' => $repo['url'],
                                         'type' => 'git',
                                         'reference' => 'master', // Going to have to fix this, will take patches
