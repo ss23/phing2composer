@@ -4,25 +4,25 @@
     "require": {
         "silverstripe/cms": "30.x-dev",
         "silverstripe/framework": "30.x-dev",
-        "custom-silvestripe-fork/blog": "dev-master",
-        "custom-silvestripe-fork/payment": "dev-master",
-        "custom-silvestripe-fork/recaptcha": "dev-master",
-        "custom-silvestripe-fork/userforms": "dev-master",
-        "custom-silvestripe-fork/spamprotection": "dev-master",
-        "custom-silvestripe-fork/fulltextsearch": "dev-master",
-        "custom-silvestripe-fork/personalisation": "dev-master",
-        "custom-silvestripe-fork/googleaddressfield": "dev-master",
-        "custom-silvestripe-fork/documentconverter": "dev-master",
-        "custom-silvestripe-fork/widgets": "dev-master",
+        "custom-silverstripe-fork/blog": "dev-master",
+        "custom-silverstripe-fork/payment": "dev-master",
+        "custom-silverstripe-fork/recaptcha": "dev-master",
+        "custom-silverstripe-fork/userforms": "dev-master",
+        "custom-silverstripe-fork/spamprotection": "dev-master",
+        "custom-silverstripe-fork/fulltextsearch": "dev-master",
+        "custom-silverstripe-fork/personalisation": "dev-master",
+        "custom-silverstripe-fork/googleaddressfield": "dev-master",
+        "custom-silverstripe-fork/documentconverter": "dev-master",
+        "custom-silverstripe-fork/widgets": "dev-master",
         "silverstripe/sqlite3": "dev-master",
-        "custom-silvestripe-fork/translatable": "dev-master",
+        "custom-silverstripe-fork/translatable": "dev-master",
         "silverstripe/comments": "dev-master"
     },
     "repositories": [
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/blog",
+                "name": "custom-silverstripe-fork/blog",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -38,7 +38,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/payment",
+                "name": "custom-silverstripe-fork/payment",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -54,7 +54,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/recaptcha",
+                "name": "custom-silverstripe-fork/recaptcha",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -70,7 +70,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/userforms",
+                "name": "custom-silverstripe-fork/userforms",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -86,7 +86,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/spamprotection",
+                "name": "custom-silverstripe-fork/spamprotection",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -102,7 +102,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/fulltextsearch",
+                "name": "custom-silverstripe-fork/fulltextsearch",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -118,7 +118,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/personalisation",
+                "name": "custom-silverstripe-fork/personalisation",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -134,7 +134,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/googleaddressfield",
+                "name": "custom-silverstripe-fork/googleaddressfield",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -150,7 +150,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/documentconverter",
+                "name": "custom-silverstripe-fork/documentconverter",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -166,7 +166,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/widgets",
+                "name": "custom-silverstripe-fork/widgets",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {
@@ -182,7 +182,7 @@
         {
             "type": "package",
             "package": {
-                "name": "custom-silvestripe-fork/translatable",
+                "name": "custom-silverstripe-fork/translatable",
                 "version": "dev-master",
                 "type": "silverstripe-module",
                 "require": {

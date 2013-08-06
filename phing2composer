@@ -87,7 +87,7 @@ function parse_as_official($data) {
 function parse_as_fork($data) {
         $data[0] = explode(':', $data[0]);
         $version = phingversion2composer($data[0][1]); // e.g. 3.0
-        $module = 'custom-silvestripe-fork/' . $data[0][0];
+        $module = 'custom-silverstripe-fork/' . $data[0][0];
         $url = $data[1];
         return array('module' => $module, 'version' => $version, 'url' => $url, 'type' => 'fork');
 }
